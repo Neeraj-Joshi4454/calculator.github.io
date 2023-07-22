@@ -1,0 +1,92 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+
+    /* border: 1px solid green; */
+    height: 10vh;
+    width: 100%;
+    background-color: lightblue;
+    color:black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.main-cal {
+
+    border: 1px solid red;
+    height: 80vh;
+    width: 40%;
+    background: #f85032;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e73827, #f85032);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e73827, #f85032);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 1rem;
+    border-radius: 10px;
+
+
+}
+
+.numpad{
+
+    /* border: 1px solid red; */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-row{
+
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+
+    height: 50px;
+    width: 100px;
+    background-color: burlywood;
+    border: none;
+    margin: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.sub-btn{
+
+    height: 50px;
+    width: 100px;
+    background-color: burlywood;
+    border: none;
+    margin: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1.5rem;
+
+}
